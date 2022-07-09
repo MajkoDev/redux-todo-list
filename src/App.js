@@ -1,5 +1,7 @@
 import { Container, Heading } from "@chakra-ui/react";
 import AddTodo from "./components/AddTodo";
+import Filter from "./components/Filter";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
         <Heading my="4">Todo List</Heading>
 
         <AddTodo />
+        <TodoList />
+        <Filter />
       </Container>
     </div>
   );

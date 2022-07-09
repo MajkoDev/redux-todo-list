@@ -1,9 +1,12 @@
-import React from 'react'
+import { Box } from "@chakra-ui/react";
+
 
 const TodoList = () => {
   return (
-    <div>TodoList</div>
-  )
-}
+    <Box textAlign="center" my="4">
+      No Todos Yay!
+    </Box>
+  );
+};
 
-export default TodoList
+export default TodoList;
