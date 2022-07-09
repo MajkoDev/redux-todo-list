@@ -1,5 +1,4 @@
-import { Container, filter, Tab, TabList, Tabs } from "@chakra-ui/react";
-import { object } from "prop-types";
+import { Container, Tab, TabList, Tabs } from "@chakra-ui/react";
 import { FILTER } from "../constants";
 
 const Filter = () => {
