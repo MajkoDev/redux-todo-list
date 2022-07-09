@@ -1,5 +1,5 @@
 const initialState = {
-  todos: [{ id: 1, content: "coding", completed: false }],
+  todos: [{ id: 1, content: "Coding", completed: false }],
 };
 
 const todos = (state = initialState, action) => {
