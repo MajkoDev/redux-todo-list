@@ -7,10 +7,12 @@ const TodoList = () => {
 
   return (
     <Box>
-      {!todos.lenght ? (
-        todos.map((todo) => <Todo key={`todo-${todo.id}`} todo={todo} />)
+      {!todos.todos.lenght ? (
+        todos.todos.map((todo) => <Todo key={`todo-${todo.id}`} todo={todo} />)
       ) : (
-        <Box textAlign="center" my="4">No Todos Yay!</Box>
+        <Box textAlign="center" my="4">
+          No Todos Yay!
+        </Box>
       )}
     </Box>
   );
