@@ -5,7 +5,7 @@ function Todo({todo}) {
   const [checked, setChecked] = useState(false)
 
   return (
-    <Box mb={1} bgColor='lightcoral' p={2}>
+    <Box mb={1} bgColor='rgb(191, 225, 235)' p={2}>
       <Checkbox colorScheme='teal' isChecked={checked}>
         <Text as={todo.completed && 'del'}>{todo.content}</Text>
       </Checkbox>
@@ -14,3 +14,4 @@ function Todo({todo}) {
 }
 
 export default Todo;
+ 
