@@ -4,15 +4,15 @@ import { useDispatch } from "react-redux";
 import { addTodo } from "../redux/actions";
 
 const AddTodo = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const [value, setValue] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(addTodo(value))
-    setValue('')
+    dispatch(addTodo(value));
+    setValue("");
   };
- 
+
   const handleInput = (e) => {
     setValue(e.target.value);
   };

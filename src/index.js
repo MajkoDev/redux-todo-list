@@ -1,8 +1,11 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
+
+// Chakra Ui
 import { ChakraProvider } from "@chakra-ui/react";
 
+// Redux
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 
